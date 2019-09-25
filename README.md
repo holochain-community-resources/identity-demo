@@ -5,12 +5,16 @@ Aggregation of the DeepKey and IdentityManager hApps to demo
 
 This is a demo for the hApps DeepKey and IdentityManager (aka Personas), which are being developed by Holo. These are their repositories:
 
+- [IdentityManager](https://github.com/holochain/identity-manager)
+- [Peer-Chat](https://github.com/holochain/peer-chat)
 - [DeepKey](https://github.com/Holo-Host/DeepKey)
-- [IdentityManager](https://github.com/holochain/identity-manager) 
 
 This is their internal module structure:
-
 // TODO: create internal module structure
+Are we doing this? Maybe too much/deep?
+
+Documentation:
+- [Personas & Profiles](https://hackmd.io/pcDkiCJoQH-z6s_VS4LNRg)
 
 ## Run the demo
 
