@@ -1,9 +1,10 @@
 # identity-demo
-Aggregation of the DeepKey and IdentityManager hApps to demo 
+
+Aggregation of the IdentityManager, Peer-Chat and DeepKey hApps to demo during the Barcelona meetup.
 
 ## Overview
 
-This is a demo for the hApps DeepKey and IdentityManager (aka Personas), which are being developed by Holo. These are their repositories:
+This is a demo for the hApps IdentityManager (aka Personas), Peer-Chat and DeepKey, which are being developed by Holo. These are their repositories:
 
 - [IdentityManager](https://github.com/holochain/identity-manager)
 - [Peer-Chat](https://github.com/holochain/peer-chat)
@@ -11,12 +12,11 @@ This is a demo for the hApps DeepKey and IdentityManager (aka Personas), which a
 
 This is their internal module structure:
 // TODO: create internal module structure
-Are we doing this? Maybe too much/deep?
 
 Documentation:
 - [Personas & Profiles](https://hackmd.io/pcDkiCJoQH-z6s_VS4LNRg)
 
-## Run the demo
+## Run the IdentityManager demo
 
 ### Requirements
 
@@ -29,15 +29,43 @@ All these steps are to be done in a terminal application (Ubuntu and MacOS teste
 1. Run `nix-shell` inside this folder.
 2. Verify that `hc --version` returns `hc 0.0.30-alpha2`.
 3. Go inside `./identity-manager/`.
-4. Run `npm run hc:start`.
+4. Run `npm run hc:start1`.
+5. OPTIONAL: Run `npm run hc:start2` in a new terminal, to start another agents.
 
 In another terminal:
 
 5. Go inside `./identity-manager/ui-src/` and run `npm install` to install UI dependencies.
 6. Run `npm run ui:start:agent1` in that same terminal.
 7. Go to `localhost:4001`.
+8. OPTIONAL: Run `npm run ui:start:agent2` in a new terminal.
+9. OPTIONAL: Go to `localhost:4002`.
 
 Tada!
+
+## Run the Peer-Chat demo
+
+### Requirements
+
+- Have `nix-shell` installed. Follow this Holochain [quickstart guide](https://developer.holochain.org/start.html) to install it on your local machine.
+
+### Steps
+
+All these steps are to be done in a terminal application (Ubuntu and MacOS tested).
+
+1. Run `nix-shell` inside this folder.
+2. Verify that `hc --version` returns `hc 0.0.30-alpha2`.
+3. Go inside `./identity-manager/`.
+4. Run `npm run hc:start1`.
+5. OPTIONAL: Run `npm run hc:start2` in a new terminal, to start another agents.
+
+In another terminal:
+
+5. Go inside `./identity-manager/ui-src/` and run `npm install` to install UI dependencies.
+6. Run `npm run ui:start:agent1` in that same terminal.
+7. Go to `localhost:4001`.
+8. OPTIONAL: Run `npm run ui:start:agent2` in a new terminal.
+9. OPTIONAL: Go to `localhost:4002`.
+
 
 ## Want to do it yourself?
 
@@ -50,6 +78,7 @@ If you want to recreate the same setup from scratch on your machine, you can do 
 ```bash
 git clone https://github.com/Holo-Host/DeepKey
 git clone https://github.com/holochain/identity-manager
+git clone https://github.com/holochain/peer-chat
 ```
 
 2. Enter the `DeepKey` folder.
