@@ -60,11 +60,23 @@ All these steps are to be done in a terminal application (Ubuntu and MacOS teste
 
 In another terminal:
 
-5. Go inside `./peer-chat/ui-src/` and run `npm install` to install UI dependencies.
-6. Run `npm run ui:start:agent1` in that same terminal.
-7. Go to `localhost:3001`.
-8. OPTIONAL: Run `npm run ui:start:agent2` in a new terminal to start a second client.
-9. OPTIONAL: Go to `localhost:3002`.
+5. Go inside `./identity-manager/ui-src/` and run `npm install` to install UI dependencies.
+6. Change this line in the `package.json` on that folder:
+
+`ui:start:agent1": "REACT_APP_WEBSOCKET_INTERFACE='ws://localhost:3401' PORT=4001 react-scripts start`
+
+to 
+
+`ui:start:agent1": "REACT_APP_WEBSOCKET_INTERFACE='ws://localhost:3403' PORT=4001 react-scripts start`
+
+to point to the `peer-chat` conductor.
+
+7. Run `npm run ui:start:agent1` in that same terminal.
+8. Go inside `./peer-chat/ui-src/` and run `npm install` to install UI dependencies.
+9. Run `npm run ui:start:agent1` in that same terminal.
+10. Go to `localhost:3001`.
+11. OPTIONAL: Run `npm run ui:start:agent2` in a new terminal to start a second client.
+12. OPTIONAL: Go to `localhost:3002`.
 
 
 ## Want to do it yourself?

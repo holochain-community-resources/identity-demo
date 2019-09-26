@@ -37,6 +37,5 @@ bundle.json
 node_modules
 
 ui
-dna
 dna-src/dist
 release

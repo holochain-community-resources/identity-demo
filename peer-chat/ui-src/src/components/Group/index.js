@@ -1,5 +1,4 @@
 import React from 'react'
-import style from './index.module.css'
 import { GroupList } from '../GroupList'
 import { UserHeader } from '../UserHeader'
 import { UserList } from '../UserList'
