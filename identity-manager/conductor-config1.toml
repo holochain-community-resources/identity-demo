@@ -40,7 +40,7 @@
   id = "personas_websocket_interface"
 [interfaces.driver]
   type = "websocket"
-  port = 3401
+  port = 3403
 [[interfaces.instances]]
   id = "personas-profiles"
 [[interfaces.instances]]
