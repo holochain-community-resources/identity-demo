@@ -19,11 +19,11 @@ Documentation:
 Video:
 - [hAppy Developer Demo of Identity Manager and Chat](https://www.youtube.com/watch?v=9M8iscRoOR4)
 
-## Run the IdentityManager demo
-
-### Requirements
+## Requirements
 
 - Have `nix-shell` installed. Follow this Holochain [quickstart guide](https://developer.holochain.org/start.html) to install it on your local machine.
+
+## Run the IdentityManager demo
 
 ### Steps
 
@@ -46,10 +46,6 @@ In another terminal:
 Tada!
 
 ## Run the Peer-Chat demo
-
-### Requirements
-
-- Have `nix-shell` installed. Follow this Holochain [quickstart guide](https://developer.holochain.org/start.html) to install it on your local machine.
 
 ### Steps
 
@@ -78,7 +74,7 @@ to point to the `peer-chat` conductor. -->
 
 ## Want to do it yourself?
 
-This repository is a helper aggregation of both hApps, with executable files included and lots of customization options omitted. Remember that Holo is 
+This repository is a helper aggregation of both hApps, with executable files included and lots of customization options omitted.
 
 If you want to recreate the same setup from scratch on your machine, you can do the following:
 
