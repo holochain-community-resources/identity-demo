@@ -10,11 +10,14 @@ This is a demo for the hApps IdentityManager (aka Personas), Peer-Chat and DeepK
 - [Peer-Chat](https://github.com/holochain/peer-chat)
 - [DeepKey](https://github.com/Holo-Host/DeepKey)
 
-This is their internal module structure:
-// TODO: create internal module structure
+<!--- This is their internal module structure:
+// TODO: create internal module structure -->
 
 Documentation:
 - [Personas & Profiles](https://hackmd.io/pcDkiCJoQH-z6s_VS4LNRg)
+
+Video:
+- [hAppy Developer Demo of Identity Manager and Chat](https://www.youtube.com/watch?v=9M8iscRoOR4)
 
 ## Run the IdentityManager demo
 
